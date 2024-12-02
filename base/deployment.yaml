@@ -29,7 +29,7 @@ spec:
                 key: START
           - name: POKEDEX_END_NUMBER
             valueFrom : 
-              configMApKeyRef: 
+              configMapKeyRef: 
                 name: pokemon-cm
                 key: END     
         ports:
