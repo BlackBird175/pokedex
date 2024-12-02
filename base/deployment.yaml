@@ -31,6 +31,6 @@ spec:
             valueFrom : 
               configMapKeyRef: 
                 name: pokemon-cm
-                key: END     
+                key: STOP     
         ports:
         - containerPort: 3000
