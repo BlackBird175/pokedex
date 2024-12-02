@@ -4,5 +4,6 @@ kind: Kustomization
 namespace: pokemon-api
 
 resources:
+- ConfigMap
 - pokemonService.yaml
 - deployment.yaml
